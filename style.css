@@ -54,3 +54,11 @@ body{
     background-color: #626364;
     color: #fff;
 }
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%; /* Adjust maximum width for smaller screens */
+    }
+    .buttons {
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr)); /* Adjust button size */
+    }
+}
